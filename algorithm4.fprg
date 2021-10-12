@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 05:45:07 "/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC0yMkdBTTM1OzIwMjEtMTAtMTI7IjA1OjM5OjUyICI7MzAzOA=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC0yMkdBTTM1OzIwMjEtMTAtMTI7IjA1OjQ1OjA3ICI7MTszMTQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <declare name="max" type="Integer" array="False" size=""/>
+            <output expression="&quot;type ur num1&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;type ur num2&quot;" newline="True"/>
+            <input variable="num2"/>
+            <if expression="num1&gt;num2">
+                <then>
+                    <assign variable="max" expression="num1"/>
+                </then>
+                <else>
+                    <assign variable="max" expression="num2"/>
+                </else>
+            </if>
+            <output expression="&quot;RESULTAT:&quot;&amp;max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
